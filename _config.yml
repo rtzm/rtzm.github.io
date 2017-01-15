@@ -30,3 +30,8 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Leap Day theme variables
+# show_downloads: ["true" or "false" to indicate whether to provide a download URL]
+# google_analytics: [Your Google Analytics tracking ID]
+show_downloads: "false"
