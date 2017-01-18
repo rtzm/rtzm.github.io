@@ -16,7 +16,7 @@
 title: Simon Swartzman
 email: simon.swartzman@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Coding projects and praxis from Simon Swartzman
+  Coding projects and praxis
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rtzm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: smnswrtzmn
@@ -24,7 +24,7 @@ github_username:  rtzm
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-minimal
 gems:
   - jekyll-feed
 exclude:
