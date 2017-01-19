@@ -17,14 +17,13 @@
         <h1><a class="home" href="{% link index.md %}">{{ site.title | default: site.github.repository_name }}</a></h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <ul class="nav">
-        <li><a href="{% link about.md %}" class="button about">About me</a></li>
-        <li><a href="{% link projects/index.html %}" class="button projects">Projects</a></li>
-        <li><a href="{% link blog/index.html %}" class="button blog">Blog</a></li>
+          <li><a href="{% link about.md %}" class="button about"><strong>About me</strong></a></li>
+          <li><a href="{% link projects/index.html %}" class="button projects"><strong>Projects</strong></a></li>
+          <li><a href="{% link blog/index.html %}" class="button blog"><strong>Blog</strong></a></li>
         </ul>
         {% if site.github.is_project_page %}
           <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
         {% endif %}
-
         {% if site.github.is_user_page %}
           <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
