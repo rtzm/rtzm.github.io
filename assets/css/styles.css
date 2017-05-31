@@ -53,3 +53,15 @@ p {
 .projects ul {
   padding: 15px 0;
 }
+
+a.logo {
+  padding-left: 37px;
+  display: inline-block;
+  line-height: 32px;
+  vertical-align: middle;
+}
+
+.github {
+  background-image: url("../github_logo.png");
+  background-repeat: no-repeat;
+}
