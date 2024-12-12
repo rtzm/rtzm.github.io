@@ -1,0 +1,12 @@
+baseURL = 'https://rtzm.github.io/'
+languageCode = 'en-us'
+title = "Memories in development"
+theme = "paper"
+
+[params]
+  # color style
+  color = 'linen' # linen, wheat, gray, light
+  name = 'Simon Swartzman'
+  bio = 'Software developer'
+  monoDarkIcon = true
+  favicon = "img/favicon.ico"
