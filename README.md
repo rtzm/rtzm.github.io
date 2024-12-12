@@ -1,3 +1,3 @@
 # rtzm.github.io
 
-My personal portfolio.
+My personal blog
